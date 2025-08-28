@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: Ranglar 4s linear infinite;
+
+}
+
+@keyframes Ranglar {
+    0% {
+        background-color: red;
+        border-radius: 0;
+        border: none;
+
+
+
+    }
+
+    25% {
+        background-color: orangered;
+        transform: translateX(200px) rotate(1135434345deg);
+
+
+
+    }
+
+    35%{
+              background-color: rgb(7, 11, 248);
+        transform: translateX(800px) rotate(36087777deg);
+    }
+
+    65% {
+        background-color: rgb(10, 7, 1);
+        transform: translateX(800px) rotate(365463460deg);
+
+
+    }
+
+
+
+    
+
+    50% {
+        background-color: orange;
+        transform: translateX(400px) rotate(1888880deg);
+
+    }
+
+    75% {
+        background-color: yellow66deg);
+    }
+
+    87%{
+        background-color: rgb(18, 51, 235);
+        transform: translateX(800px) rotate(360deg);
+
+
+    }
+
+    99%{
+           background-color: rgb(7, 248, 208);
+        transform: translateX(800px) rotate(360deg);
+    }
+
+    100% {
+        background-color: yellowgreen;
+        transform: translateX(800px) rotate(360deg);
+    }
+
+
+}
+
+
